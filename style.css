@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+body {
+    margin: 0%
+}
+header {
+    background: url(huntington.png);
+    background-size: cover;
+    height: 40vh;
+}
+
+h1 {
+    padding-top: 4%;
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Roboto';
+    font-size: 7vh;
+}
+
+h2 {
+    /* background: url(zen.svg); */
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Satisfy';
+    padding-left: 6vw;
+    font-size: 3vh;
+}
+
+p {
+    font-family: 'IBM Plex Mono';
+    padding-left: 6vw;
+    padding-right: 6vw;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h3 {
+    padding-top: 3vh;
+    font-family: 'Roboto';
+    padding-left: 6vw;
+    
+    color: black
+}
+
+.participation, .benefits {
+    background: url(bamboo.png);
+    background-color: #749d7a;
+    color: white;
+    
+}
+
+a {
+    color: rgb(3, 61, 3);
+    text-decoration: none
+    
+}
+
+/* Jacob to go through with thr class. */
+
+div.participation{
+    padding: 3em 0 ;
+    margin-top: 3em;
+}
+div.benefits {
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+div.participation h3, div.benefits h3 {
+    margin-top: 0;
+}
+
+div.participation p, div.benefits p {
+    margin-bottom: 0;
+}
+
+div.requirements p {
+    padding-bottom: 4vh;
+}
+
+div [role=contentinfo] {
+    padding-top: 4vh;
+    background-color: #749d7a;
+    height: 10vh;
+    margin-bottom: 0;
+    color: rgb(114, 106, 106);
+    text-emphasis: 10px;
+    font-family: 'Roboto';
+    padding-left: 9vw;
+}
+
+div [role=contentinfo] a {
+    font-family: 'Satisfy';
+    color: white;
+    font-size: 6vh
+}
+
+footer {
+    background-color: rgb(65, 78, 65);
+    height: 9vh;
+    margin-top: 0;
+    text-align: center;
+    padding-top: 2vh;
+}
+
+footer i {
+    padding: 2vh;/*this has put spaces between the icons*/
+    color: white;
+    font-size: 4vh
+    
+    
+}
+
+.design-selection, .design-archives {
+    background-color: rgb(202, 218, 202);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+div [role=navigation] ul{
+    list-style-type: none;
+}
+
+.select, .archives, .resources {
+    display: none;
+}
+
+div.design-selection{
+    padding: 3em 0 ;
+    margin-top: 3em;
+    column-width: auto;
+    column-fill: auto;
+    text-align: center;
+    column-gap: 0vw;
+    padding-right: 5vw;
+    border-bottom: 0.2vh solid  rgb(65, 78, 65);
+    column-count: 1;
+}
+
+.design-selection ul li{
+    float: left;
+    width: 50%;
+}
+.design-selection ul {
+    list-style-type: disc;
+}
+
+.designer-name {
+    color:rgb(114, 106, 106) ;
+}
+
+div.design-archives {
+    padding: 3em 0 ;
+    margin-top: 3em;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+    /* text-align: center; */
+    padding-right: 5vw;
+    /* column-count: 1; */
+    border-bottom: 1vh;
+    border-bottom-color:rgb(114, 106, 106);
+    
+}
+
+.design-archives ul li{
+    display: inline-block;
+    text-align: center
+
+}
+
+div.design-archives a {
+    color: rgb(114, 106, 106);
+    text-align: center;
+     
+}
+
+div.design-selection, div.design-archives{
+    margin-top: 0;
+}
+
+div.design-selection, div.design-archives{
+    margin-bottom: 0;
+}
+
+div.zen-resources {
+    padding: 3em 0 ;
+    margin-top: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-right: 5vw;
+    column-count: 2;
+}
+.zen-resources ul{
+    list-style-type: none;
+}
+.zen-resources {
+    background: url(bamboo.png);
+    background-color: #749d7a;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
